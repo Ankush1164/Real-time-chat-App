@@ -1,0 +1,50 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Caveat:wght@700&family=Fira+Sans&family=Poppins&family=Ubuntu&display=swap');
+.messageBox{
+    width: fit-content;
+    padding: 6px 14px 6px 14px ;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    clear: both;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.right{
+    float: right;
+    background-color: lightgreen;
+
+}
+.left{
+    float: left;
+    background-color: lightblue;
+}
+
+@media (max-aspect-ratio: 7/10) {
+    .join_container{
+        width: 100%;
+    }
+    .input_container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .button_res{
+        width: auto;
+    }
+    .chat_container{
+        width: 100%;
+        padding: 0px;
+    }
+    .chat_screen{
+        width: 100%;
+        height: 100%;
+    }
+}
