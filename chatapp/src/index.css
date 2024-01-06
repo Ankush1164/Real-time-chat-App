@@ -27,6 +27,7 @@
 @media (max-aspect-ratio: 7/10) {
     .join_container{
         width: 100%;
+        height: 100vh;
     }
     .input_container{
         width: 100%;
@@ -42,6 +43,7 @@
     .chat_container{
         width: 100%;
         padding: 0px;
+        height: 100vh;
     }
     .chat_screen{
         width: 100%;
