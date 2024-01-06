@@ -6,7 +6,7 @@ import Message from './Message';
 import ReactScrollToBottom from "react-scroll-to-bottom"
 import CloseIcon from '@mui/icons-material/Close';
 
-const ENDPOINT = "https://real-time-chat-app-gules.vercel.app/"
+const ENDPOINT = "http://localhost:4000/"
 let socket;
 
 function Chat() {
